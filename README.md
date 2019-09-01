@@ -1,6 +1,7 @@
 # KidBright_ADS1115
 
 ## ADS1115 16-BIT ADC - 4 CHANNEL WITH PROGRAMMABLE GAIN AMPLIFIER
+Plug-In นี้คินค่ากับเป็นข้อมูลดิบ ตั้งแต่ 0 - 65535 (16 ฺBit Data)
 ![1085-02](https://cdn-shop.adafruit.com/970x728/1085-02.jpg)
 
 ## แก้ไขกำลังขยาย
@@ -35,3 +36,8 @@
     ADS1115_REG_CONFIG_PGA_0_512V   +/-0.512V range = Gain 8
     ADS1115_REG_CONFIG_PGA_0_256V   +/-0.256V range = Gain 16
 ```
+
+หากต้องการแก้ไขการตั้งแต่าต่างๆ แก้ได้ที่ตัวแปร config <br />
+สอบถามเพิ่มเติมได้ครับ
+>Kritsadapong Suta
+
